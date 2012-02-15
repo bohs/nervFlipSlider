@@ -1,0 +1,21 @@
+    .overlayer{
+            margin-left:auto;
+            margin-right:auto;
+    }
+    .pageflip{
+            background:url("../images/shadow.png") no-repeat right top;
+    }
+    .pagefoldShadow{
+            background:url("../images/shadowL.png") no-repeat -10px top;
+    }
+    .pagefoldShadowUnder{
+            background:url("../images/shadow-old.png") no-repeat left top;
+    }
+    .pagefold img{
+            -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }

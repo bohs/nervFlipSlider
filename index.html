@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+    <title>Flipslider</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/nervFlipSlider.js"></script>
+    <link rel="stylesheet" href="css/flipslidercss.css">
+</head>
+
+<body>
+<div class="overlayer">
+    <img src="images/image1.jpg">
+    <img src="images/image2.jpg">
+    <img src="images/image3.jpg">
+    <img src="images/image4.jpg">
+</div>
+
+<script type="text/javascript">
+        $(document).ready(function(){
+            var options = {
+                width:1024 ,
+                height:768,
+                touch:false
+            }
+            $(".overlayer").nervFlipSlider(options);
+        });
+</script>
+
+
+</body>
+</html>
